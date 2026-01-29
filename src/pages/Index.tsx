@@ -10,7 +10,7 @@ const Index = () => {
       <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-b z-50">
         <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-            ГК Поволжье
+            СК Поволжье
           </div>
           <div className="hidden md:flex gap-8 items-center">
             <a href="#home" className="hover:text-primary transition-colors">Главная</a>
@@ -36,8 +36,8 @@ const Index = () => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Профессиональное строительство жилых и коммерческих объектов. 
-              Более 15 лет опыта и сотни реализованных проектов
+              Строительство деревянных домов, бань и малых архитектурных форм. 
+              С 2010 года используем древесину высших сортов кировского леса
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all hover:scale-105">
@@ -64,25 +64,25 @@ const Index = () => {
                 Надёжность и качество в каждом проекте
               </h2>
               <p className="text-lg text-muted-foreground mb-6">
-                ГК Поволжье — это команда профессионалов с более чем 15-летним опытом в строительной отрасли. 
-                Мы специализируемся на возведении жилых комплексов, коммерческих зданий и промышленных объектов.
+                СК Поволжье — это команда специалистов с опытом работы с 2010 года. 
+                Мы специализируемся на строительстве деревянных домов, бань, бытовок и других малых архитектурных форм.
               </p>
               <p className="text-lg text-muted-foreground mb-8">
-                Наша миссия — создавать пространства, в которых людям комфортно жить и работать. 
-                Мы используем только проверенные материалы и современные технологии строительства.
+                Наша миссия — создавать уютные и надежные деревянные дома для комфортной жизни. 
+                Мы работаем по договору и используем только древесину высших сортов кировского леса.
               </p>
               <div className="grid grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-primary mb-2">15+</div>
+                  <div className="text-4xl font-bold text-primary mb-2">14+</div>
                   <div className="text-sm text-muted-foreground">лет опыта</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-secondary mb-2">200+</div>
-                  <div className="text-sm text-muted-foreground">проектов</div>
+                  <div className="text-4xl font-bold text-secondary mb-2">30%</div>
+                  <div className="text-sm text-muted-foreground">предоплата</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-accent mb-2">500+</div>
-                  <div className="text-sm text-muted-foreground">клиентов</div>
+                  <div className="text-4xl font-bold text-accent mb-2">100%</div>
+                  <div className="text-sm text-muted-foreground">договор</div>
                 </div>
               </div>
             </div>
@@ -116,33 +116,33 @@ const Index = () => {
             {[
               {
                 icon: "Home",
-                title: "Жилые комплексы",
-                description: "Строительство многоквартирных домов и коттеджных поселков с современной инфраструктурой"
+                title: "Деревянные дома",
+                description: "Строительство экологичных домов из древесины высших сортов кировского леса под ключ"
               },
               {
-                icon: "Building2",
-                title: "Коммерческие объекты",
-                description: "Возведение торговых центров, офисных зданий и бизнес-центров любой сложности"
+                icon: "Waves",
+                title: "Бани и сауны",
+                description: "Возведение русских бань и саун из качественной древесины с соблюдением всех традиций"
               },
               {
-                icon: "Factory",
-                title: "Промышленные здания",
-                description: "Строительство производственных цехов, складов и логистических комплексов"
+                icon: "Warehouse",
+                title: "Бытовки",
+                description: "Практичные и долговечные бытовки для дачи, стройки или хозяйственных нужд"
               },
               {
-                icon: "HardHat",
-                title: "Реконструкция",
-                description: "Модернизация и капремонт существующих зданий с учетом современных стандартов"
+                icon: "Trees",
+                title: "Малые архитектурные формы",
+                description: "Беседки, навесы, веранды и другие деревянные конструкции для вашего участка"
               },
               {
-                icon: "Wrench",
-                title: "Инженерные системы",
-                description: "Монтаж и обслуживание всех коммуникаций: электричество, вода, отопление, вентиляция"
+                icon: "Ruler",
+                title: "Индивидуальное проектирование",
+                description: "Составим идеальный проект с учётом ваших желаний, внесём изменения в типовой план"
               },
               {
-                icon: "FileText",
-                title: "Проектирование",
-                description: "Разработка полного пакета проектной документации и получение разрешений"
+                icon: "Truck",
+                title: "Доставка и монтаж",
+                description: "Полный цикл работ: от производства до установки готовой конструкции на вашем участке"
               }
             ].map((service, index) => (
               <Card 
@@ -178,24 +178,24 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                icon: "Shield",
-                title: "Гарантия качества",
-                description: "5 лет гарантии на все виды работ"
+                icon: "TreePine",
+                title: "Кировский лес",
+                description: "Используем древесину высших сортов"
               },
               {
-                icon: "Clock",
-                title: "Соблюдение сроков",
-                description: "Сдача объектов точно в срок по договору"
+                icon: "FileCheck",
+                title: "Работа по договору",
+                description: "Все работы выполняются строго по договору"
               },
               {
-                icon: "Award",
-                title: "Опыт и экспертиза",
-                description: "Команда из 200+ специалистов"
+                icon: "Wallet",
+                title: "Удобная оплата",
+                description: "Предоплата всего 30% от стоимости"
               },
               {
-                icon: "DollarSign",
-                title: "Прозрачные цены",
-                description: "Фиксированная стоимость без скрытых платежей"
+                icon: "Users",
+                title: "Опытные мастера",
+                description: "Специалисты с опытом работы с 2010 года"
               }
             ].map((advantage, index) => (
               <div 
@@ -225,7 +225,7 @@ const Index = () => {
                 Свяжитесь с нами
               </h2>
               <p className="text-xl text-white/80 mb-8">
-                Готовы обсудить ваш проект? Оставьте заявку, и мы свяжемся с вами в течение часа
+                Готовы обсудить ваш проект? Оставьте заявку, и наш специалист свяжется с вами в ближайшее время
               </p>
 
               <div className="space-y-6">
@@ -235,8 +235,8 @@ const Index = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Телефон</div>
-                    <a href="tel:+78005553535" className="text-lg hover:text-primary transition-colors">
-                      +7 (800) 555-35-35
+                    <a href="tel:+78002505141" className="text-lg hover:text-primary transition-colors">
+                      8 (800) 250-51-41
                     </a>
                   </div>
                 </div>
@@ -247,8 +247,8 @@ const Index = () => {
                   </div>
                   <div>
                     <div className="font-semibold mb-1">Email</div>
-                    <a href="mailto:info@gkpovolzhje.ru" className="text-lg hover:text-primary transition-colors">
-                      info@gkpovolzhje.ru
+                    <a href="mailto:info@sk-povolzhye.ru" className="text-lg hover:text-primary transition-colors">
+                      info@sk-povolzhye.ru
                     </a>
                   </div>
                 </div>
@@ -260,7 +260,7 @@ const Index = () => {
                   <div>
                     <div className="font-semibold mb-1">Адрес</div>
                     <div className="text-lg text-white/80">
-                      г. Самара, ул. Строителей, д. 25
+                      Республика Марий Эл, Чувашия
                     </div>
                   </div>
                 </div>
@@ -313,10 +313,10 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                ГК Поволжье
+                СК Поволжье
               </div>
               <p className="text-white/70">
-                Строим надёжное будущее с 2009 года
+                Строим деревянные дома с 2010 года
               </p>
             </div>
             
@@ -347,7 +347,7 @@ const Index = () => {
           </div>
 
           <div className="border-t border-white/10 pt-8 text-center text-white/60">
-            <p>© 2024 ГК Поволжье. Все права защищены.</p>
+            <p>© 2024 СК Поволжье. Все права защищены.</p>
           </div>
         </div>
       </footer>
